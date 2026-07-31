@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tea House</title>
+    <title>Emergency Service</title>
     <!-- tailwind and daisy UI Link-->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -16,11 +16,81 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body class="hind-madurai-fonts">
-    
+
 </body>
+<header>
+    <!-- ================ NAV SECTION START ================ -->
+    <section class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <nav class="navbar container mx-auto px-4 sm:px-6 lg:px-8 justify-between">
 
- <script src="js/script.js">
+            <div class="flex items-center gap-3">
+                <div
+                    class="w-10 h-10 rounded-full border-2 border-emerald-600 p-0.5 flex items-center justify-center overflow-hidden bg-white">
+                    <img src="assets/logo.png" alt="Emergency Service Logo" class="w-full h-full object-contain" />
+                </div>
 
- </script>
+                <div class="flex flex-col leading-tight">
+                    <span class="font-bold text-emerald-800 text-sm sm:text-base tracking-tight">
+                        Emergency
+                    </span>
+                    <span class="font-bold text-emerald-800 text-sm sm:text-base tracking-tight">
+                        Service
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="flex items-center gap-3 sm:gap-4">
+
+                <div
+                    class="badge badge-lg bg-emerald-50 text-emerald-950 border-none px-4 py-3 h-auto gap-2 rounded-full font-semibold">
+                    <span>0</span>
+                    <span class="text-red-500 text-base">❤️</span>
+                </div>
+                <div
+                    class="badge badge-lg bg-emerald-50 text-emerald-950 border-none px-4 py-3 h-auto gap-2 rounded-full font-semibold">
+                    <span>100</span>
+                    <span class="text-amber-400 text-base">🪙</span>
+                </div>
+
+                <button
+                    class="btn btn-emerald bg-emerald-600 hover:bg-emerald-700 text-white rounded-full border-none px-6 text-sm sm:text-base min-h-0 h-10">
+                    2 Copy
+                </button>
+
+            </div>
+
+        </nav>
+    </section>
+    <!-- ================ BANNER SECTION START ================ -->
+    <section class="w-full bg-[#004D34] text-white py-12 px-4 text-center">
+        <div class="max-w-4xl mx-auto flex flex-col items-center justify-center space-y-4">
+            <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white p-1 flex items-center justify-center shadow-lg">
+                <img src="assets/logo.png" alt="Government Seal of Bangladesh" class="w-full h-full object-contain" />
+            </div>
+
+            <h1 class="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight">
+                Emergency Service Directory
+            </h1>
+            <p
+                class="text-xs sm:text-sm md:text-base font-normal text-emerald-100 opacity-90 max-w-2xl leading-relaxed">
+                Government Emergency Services at Your Fingertip – A Project by Government of the People’s Republic of
+                Bangladesh
+            </p>
+
+        </div>
+    </section>
+    <!-- ================ BANNER SECTION END ================ -->
+
+</header>
+<main>
+
+</main>
+
+<script src="js/script.js">
+
+</script>
+
 </html>
